@@ -1,0 +1,24 @@
+source leaprc.protein.ff14SB
+source leaprc.water.tip3p
+loadamberparams hl.frcmod
+loadamberparams frcmod.ions234lm_iod_tip3p
+
+mol = loadpdb [YOUR PDB FILE]
+
+HL1 = createAtom HL1 HL 0.0
+HL2 = createAtom HL2 HL 0.0
+HL3 = createAtom HL3 HL 0.0
+set HL1 element H
+set HL2 element H
+set HL3 element H
+set HL1 position {0.0 0.0 0.0}
+set HL2 position {0.0 0.0 0.0}
+set HL3 position {0.0 0.0 0.0}
+add mol.142 HL1
+add mol.146 HL2
+add mol.166 HL3
+set mol box {XXX YYY ZZZ}
+
+savepdb mol TLN_solv_HL.pdb
+saveamberparm mol TLN_solv_HL.prmtop TLN_solv_HL.inpcrd
+quit
