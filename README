@@ -1,0 +1,12 @@
+This repository contains two categories of content under different licenses:
+Code (example-scripts/): licensed under the GNU General Public License v3.0 (GPLv3). See LICENSE.
+Data and model files (qm-data-sets/, mace-model-files/): licensed under Creative Commons Attribution 4.0 International (CC BY 4.0). See https://creativecommons.org/licenses/by/4.0/.
+
+The scripts in this repository are distributed under the GNU General
+Public License v3.0 (see LICENSE), in the hope that they will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+The data and model files in this repository are distributed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0),
+provided "as is" without warranty of any kind.
